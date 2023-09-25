@@ -1,0 +1,71 @@
+<?php
+  $mensaje = "Hola Mundo";
+echo $mensaje;
+//esto es un comentario de la primer variable
+  $variable = 5; // operacion de asignacion
+echo "<br>";
+echo $variable;
+$variable1 = 7;
+$variable2 = 9;
+echo "<br>";
+// Sumar las dos variables
+$suma = $variable1 + $variable2;
+echo "La suma es: ".$suma;
+// Restar las dos variables
+$resta = $variable1 - $variable2;
+echo "<br>";
+echo "La resta es: ".$resta;
+// Multiplicar las dos variables
+$multiplicacion = $variable1 * $variable2;
+echo "<br>";
+echo "La multiplicacion es: ".$multiplicacion;
+  // Division entera de las dos variables
+$divisionEntera = intdiv($variable1, $variable2);
+echo "<br>";
+echo "La division es: ".$divisionEntera;
+// Calcular el resto de la división entera
+$resto = $variable1 % $variable2;
+echo "<br>";
+echo "El resto es: ".$resto;
+echo "<br>";
+// Definir la temperatura en grados Celsius
+$celsius = 20;
+
+// Calcular la temperatura en grados Fahrenheit
+$fahrenheit = ($celsius * 9 / 5) + 32;
+
+// Imprimir el resultado
+echo "$celsius grados Celsius son equivalentes a $fahrenheit grados Fahrenheit";
+echo "<br>";
+// Definir la base y la altura del rectángulo en centímetros
+$base = 18;
+$altura = 12;
+
+// Calcular el área del rectángulo
+$area = $base * $altura;
+
+// Calcular el perímetro del rectángulo
+$perimetro = 2 * ($base + $altura);
+
+// Imprimir los resultados
+echo "Área del rectángulo: $area cm²<br>";
+echo "Perímetro del rectángulo: $perimetro cm";
+echo "<br>";
+// Definir el radio del círculo en centímetros
+$radio = 30;
+
+// Definir el valor de π (pi)
+$pi = 3.14159265359;
+
+// Calcular el área del círculo
+$area = $pi * pow($radio, 2);
+
+// Calcular el perímetro del círculo (circunferencia)
+$perimetro = 2 * $pi * $radio;
+
+// Imprimir los resultados
+echo "Área del círculo: $area cm²<br>";
+echo "Perímetro del círculo: $perimetro cm";
+echo "<br>";
+
+?>
